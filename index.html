@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boyfriend - Modern Men's Fashion | Kudal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <h1>BOYFRIEND</h1>
+                <p>Mens Wear</p>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>ELEVATE YOUR STYLE</h1>
+            <p>Discover the latest trends in men's fashion at Boyfriend</p>
+            <a href="#products" class="btn">SHOP NOW</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/store-front.jpg" alt="Boyfriend Store Front">
+                </div>
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Founded in 2018 in the heart of Kudal, Maharashtra, Boyfriend was born from a passion to bring contemporary men's fashion to our local community. What started as a small boutique has grown into a destination for style-conscious men looking for quality clothing and accessories.</p>
+                    <h3>Our Mission</h3>
+                    <p>At Boyfriend, we believe that great style shouldn't be complicated. We curate collections that blend timeless classics with modern trends, ensuring our customers always look their best without trying too hard.</p>
+                    <h3>Our Promise</h3>
+                    <p>We're committed to offering premium quality, excellent customer service, and an enjoyable shopping experience that keeps you coming back.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Shop By Category</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="images/tshirts.jpg" alt="T-Shirts">
+                    <div class="category-info">
+                        <h3>T-Shirts</h3>
+                        <a href="#products" class="btn-small">View All</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/shirts.jpg" alt="Shirts">
+                    <div class="category-info">
+                        <h3>Shirts</h3>
+                        <a href="#products" class="btn-small">View All</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/jeans.jpg" alt="Jeans">
+                    <div class="category-info">
+                        <h3>Jeans</h3>
+                        <a href="#products" class="btn-small">View All</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/formal.jpg" alt="Formal Wear">
+                    <div class="category-info">
+                        <h3>Formal Wear</h3>
+                        <a href="#products" class="btn-small">View All</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/accessories.jpg" alt="Accessories">
+                    <div class="category-info">
+                        <h3>Accessories</h3>
+                        <a href="#products" class="btn-small">View All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Arrivals</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="product-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="tshirts">T-Shirts</button>
+                <button class="filter-btn" data-filter="shirts">Shirts</button>
+                <button class="filter-btn" data-filter="jeans">Jeans</button>
+                <button class="filter-btn" data-filter="formal">Formal</button>
+                <button class="filter-btn" data-filter="accessories">Accessories</button>
+            </div>
+            <div class="product-grid">
+                <!-- T-Shirts -->
+                <div class="product-card" data-category="tshirts">
+                    <div class="product-image">
+                        <img src="images/tshirt-1.jpg" alt="Casual T-Shirt">
+                        <div class="product-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Casual Cotton T-Shirt</h3>
+                        <div class="product-price">
+                            <span class="price">₹599</span>
+                            <span class="original-price">₹799</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="tshirts">
+                    <div class="product-image">
+                        <img src="images/tshirt-2.jpg" alt="Printed T-Shirt">
+                        <div class="product-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Graphic Print T-Shirt</h3>
+                        <div class="product-price">
+                            <span class="price">₹699</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Shirts -->
+                <div class="product-card" data-category="shirts">
+                    <div class="product-image">
+                        <img src="images/shirt-1.jpg" alt="Casual Shirt">
+                        <div class="product-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Slim Fit Casual Shirt</h3>
+                        <div class="product-price">
+                            <span class="price">₹1,299</span>
+                            <span class="original-price">₹1,599</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="shirts">
+                    <div class="product-image">
+                        <img src="images/shirt-2.jpg" alt="Formal Shirt">
+                        <div class="product-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Formal Shirt</h3>
+                        <div class="product-price">
+                            <span class="price">₹1,499</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Jeans -->
+                <div class="product-card" data-category="jeans">
+                    <div class="product-image">
+                        <img src="images/jeans-1.jpg" alt="Slim Fit Jeans">
+                        <div class="product-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Slim Fit Denim Jeans</h3>
+                        <div class="product-price">
+                            <span class="price">₹1,899</span>
+                            <span class="original-price">₹2,299</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="jeans">
+                    <div class="product-image">
+                        <img src="images/jeans-2.jpg" alt="Ripped Jeans">
+                        <div class="product-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Distressed Denim Jeans</h3>
+                        <div class="product-price">
+                            <span class="price">₹1,999</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Formal -->
+                <div class="product-card" data-category="formal">
+                    <div class="product-image">
+                        <img src="images/formal-1.jpg" alt="Formal Suit">
+                        <div class="product-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Fit Suit</h3>
+                        <div class="product-price">
+                            <span class="price">₹7,999</span>
+                            <span class="original-price">₹9,999</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="formal">
+                    <div class="product-image">
+                        <img src="images/formal-2.jpg" alt="Formal Trousers">
+                        <div class="product-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Slim Fit Formal Trousers</h3>
+                        <div class="product-price">
+                            <span class="price">₹1,799</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Accessories -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <img src="images/accessory-1.jpg" alt="Leather Belt">
+                        <div class="product-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Leather Belt</h3>
+                        <div class="product-price">
+                            <span class="price">₹899</span>
+                            <span class="original-price">₹1,199</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <img src="images/accessory-2.jpg" alt="Sunglasses">
+                        <div class="product-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Sunglasses</h3>
+                        <div class="product-price">
+                            <span class="price">₹1,299</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-container">
+                <a href="#" class="btn">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section id="offers" class="offers">
+        <div class="container">
+            <div class="section-header">
+                <h2>Special Offers</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="offers-grid">
+                <div class="offer-card large">
+                    <div class="offer-content">
+                        <h3>SUMMER SALE</h3>
+                        <p>Up to 50% off on selected items</p>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-content">
+                        <h3>NEW ARRIVALS</h3>
+                        <p>Fresh styles for the season</p>
+                        <a href="#" class="btn-small">Explore</a>
+                    </div>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-content">
+                        <h3>ACCESSORIES</h3>
+                        <p>Buy 2 Get 1 Free</p>
+                        <a href="#" class="btn-small">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"Boyfriend has completely transformed my wardrobe. The quality of their clothes is exceptional, and the staff is always helpful in finding the perfect fit."</p>
+                        <div class="testimonial-author">
+                            <h4>Rahul Sharma</h4>
+                            <p>Kudal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"I've been shopping at Boyfriend for over a year now, and I'm always impressed by their collection. They have the latest trends at reasonable prices."</p>
+                        <div class="testimonial-author">
+                            <h4>Amit Patil</h4>
+                            <p>Malvan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"The formal wear collection at Boyfriend is outstanding. I bought a suit for my wedding, and I received so many compliments. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <h4>Vikram Desai</h4>
+                            <p>Sawantwadi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Visit Our Store</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15285.866203912661!2d73.67291282646582!3d16.007699541481086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0348d4332d117%3A0xd3b9f6c8e0a8c5c5!2sKudal%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1650000000000!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Fashion Street, Near Bus Stand, Kudal, Maharashtra - 416520</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Store Hours</h3>
+                            <p>Monday - Saturday: 10:00 AM - 9:00 PM</p>
+                            <p>Sunday: 11:00 AM - 7:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Contact</h3>
+                            <p>Phone: +91 9876543210</p>
+                            <p>Email: info@boyfashion.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <a href="https://wa.me/919876543210" class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with the latest trends and exclusive offers</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>BOYFRIEND</h2>
+                    <p>FASHION STORE</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Shop</h3>
+                        <ul>
+                            <li><a href="#products">New Arrivals</a></li>
+                            <li><a href="#products">T-Shirts</a></li>
+                            <li><a href="#products">Shirts</a></li>
+                            <li><a href="#products">Jeans</a></li>
+                            <li><a href="#products">Formal Wear</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Information</h3>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Account</h3>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Boyfriend Fashion Store. All Rights Reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-google-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
