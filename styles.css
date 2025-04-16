@@ -191,7 +191,7 @@ img {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero-bg.jpg") no-repeat center center
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("Untitled\ design\ \(6\).png") no-repeat center center
     / cover;
   display: flex;
   align-items: center;
@@ -211,11 +211,13 @@ img {
   margin-bottom: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  color: black;
 }
 
 .hero-content p {
   font-size: 1.2rem;
   margin-bottom: 30px;
+  color: black;
 }
 
 /* About Section */
